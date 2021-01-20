@@ -1,0 +1,182 @@
+<html lang="en">
+
+<head>
+    <title>Static Web Page</title>
+    <meta charset="utf-8">
+    <style>
+        body{
+            max-width: 1521px;
+            max-height: 1445px;
+            background-image: url("https://csci571.com/hw/hw3/images/Cutlery.png");
+            background-position-x: 75px;
+            background-position-y: -10px;
+            background-size: 1320px 1100px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            overflow-x: hidden;
+            margin-top: 0px;
+
+        }
+        .container {
+            position: relative;
+            z-index: -1;
+        }
+        .header{
+            background-color: white;
+            /*padding-top: 20px;*/
+            padding-bottom: 0px;
+            color: #0639C1;
+            font-size: 16pt;
+            padding-left: 65px;
+            border-bottom-color: black;
+            border-bottom: 2px;
+            z-index: +1;
+
+        }
+        .navigationbar{
+            background-color: white;
+            padding-left: 64px;
+            font-family: Arial;
+            z-index: +1;
+            background-size: 1600px 30px;
+            overflow: auto;
+
+            width: 1500px;
+        }
+        .navigationbar a{
+            float: left;
+            display: inline;
+            padding: 0px 20px 45px 2px;
+            text-decoration: none;
+            text-align: center;
+            color: black;
+            background-size: 1600px 30px;
+            background-color: white;
+
+
+        }
+        
+        hr{
+            margin-left: -100px;
+            padding-top: 0px;
+            width:1550px;
+            overflow-x: visible;
+
+        }
+        
+        .topblock{
+            float: left;
+            width: 1500px;
+            height: 650px;
+            font-size: 30pt;
+            color: #0639C1;
+            /*background-size: 80% 120%;*/
+            background-position: 60px 0px;
+            overflow: hidden;
+
+        }
+
+        .topblock a{
+            color: black;
+            font-size: 16pt;
+            padding: 18px 21px;
+            background: white;
+            text-decoration: none;
+        }
+        
+        .topblock p{
+
+        }
+        table, td, th {
+            z-index: +1;
+            border: 0px;
+            text-align: center;
+            padding-top: -10px;
+        }
+
+        table {
+            background-color: white;
+            border-collapse: collapse;
+            padding-right: -200px;
+            width: 1400px;
+            position: sticky;
+        }
+
+        th, td {
+            padding: 15px 15px;
+            color: #0A3BC2;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <div class="header">
+        <br>
+        <h1 style="font-size: 40pt;">BöN</h1>
+        <hr/>
+        <br>
+    </div>
+
+    <div class="navigationbar">
+        <a href="#" onclick="return false;">Home</a>
+        <a href="#" onclick="return false;">Decor</a>
+        <a href="#" onclick="return false;">Your Kitchen</a>
+        <a href="#" onclick="return false;">Your Bathroom</a>
+        <a href="#" onclick="return false;">Your Bedroom</a>
+        <a href="#" onclick="return false;">About</a>
+        <a href="#" onclick="return false;">Contact</a>
+
+    </div>
+    <div class="topblock">
+        <p style="font-weight: bold; font-size: 60pt; padding-bottom: -10px; font-family: serif"> &nbsp; &nbsp; &nbsp;&nbsp;  Fall Cutlery <br>
+        &nbsp; &nbsp;  &nbsp;&nbsp; Collection </p><p>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+             &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;<a href="#" style="font-weight: lighter;" onclick="return false;">Shop Now</a></p>
+    </div>
+
+    <table>
+        <tr>
+            <th><br></th>
+        </tr>
+        <tr >
+            <th colspan="2" align="center" style="padding-left: 0px; padding-top: 30px">
+                <h1 style="color: #0639C1; font-size: 30pt">Defining Styling Since 1965</h1>
+            </th>
+        </tr>
+        <tr>
+            <td style="padding-left: 70px">
+                <img src="http://csci571.com/hw/hw3/images/Decor.png" alt="alternatetext" style="padding-right: 20px; background-color: powderblue; width:645px" >
+                <p align="center" style="padding-top: 20px; padding-bottom: 40px; font-size: x-large; font-family: Georgia, Times, Serif">Decor</p>
+            </td>
+            <td>
+                <img src="http://csci571.com/hw/hw3/images/Bedroom.png" alt="alternatetext" style="padding-right: 20px; background-color: powderblue; width:645px">
+                <br>
+                <p align="center" style="padding-top: 20px; padding-bottom: 40px; font-size: x-large; font-family: Georgia, Times, Serif">Your Bedroom</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding-left: 70px">
+                <img src="http://csci571.com/hw/hw3/images/Kitchen.png" alt="alternatetext" style="padding-right: 20px; background-color: powderblue; width:645px">
+                <p align="center" style="padding-top: 20px; font-size: x-large; font-family: Georgia, Times, Serif">Your Kitchen</p>
+            </td>
+            <td>
+                <img src="http://csci571.com/hw/hw3/images/Bathroom.png" alt="alternatetext" style="padding-right: 20px; background-color: powderblue; width:645px">
+                <p align="center" style="padding-top: 20px; font-size: x-large; font-family: Georgia, Times, Serif">Your Bathroom</p>
+            </td>
+        </tr>
+        <tr>
+            <th></th>
+        </tr>
+    </table>
+</body>
+
+
+
+</html>
+
+
+
